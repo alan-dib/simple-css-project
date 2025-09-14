@@ -1,0 +1,1 @@
+A webpage project using css basics demonstrating flexbox, box-sizing, styling in general.
