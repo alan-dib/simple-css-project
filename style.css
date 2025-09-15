@@ -5,12 +5,16 @@
 
 body{
     font-family: Roboto;
-    display: flex;    
-    height: 100vh;
+    display: flex;   
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    margin: -75px;    
+    margin: 0;
+    min-height: 100vh;        
+}
+
+html, body{
+    overflow-x: hidden;
 }
 
 #container{
@@ -19,15 +23,14 @@ body{
     min-width: 100%;       
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;    
-    padding-left: 80px;    
+    flex-wrap: wrap;         
 }
 
 h1{
     display: flex;
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: 900;    
 }
 
 article,a{
@@ -37,7 +40,7 @@ article,a{
 
 .logo{
     font-size: 24px;
-    color: #F9FAF8;
+    color: #F9FAF8;   
 }
 
 ul,a{
@@ -52,17 +55,15 @@ header{
     max-height: fit-content;    
     width: 100%;
     justify-content: space-between;
-    padding: 10px;
-    margin-top: 10px;    
+    padding: 18px;       
 }
 
 ul{
-    display: flex;
-    
+    display: flex;    
 }
 
-li{
-    margin: 8px;
+.links{
+    margin: 7px;
 }
 
 .adjust-header{    
@@ -81,7 +82,7 @@ li{
     display: flex;
     flex-direction: column;
     max-width: 400px;
-    margin: 90px 5px; 
+    margin: 120px 5px; 
       
 }
 
@@ -100,18 +101,54 @@ li{
     border-radius: 15px;
 }
 
-img{
+.placeholder-header{
     width: 250px;
     height: 90px;    
 }
 .placeholder{
     display: flex;
     align-items: center;
-    margin-left: 350px;   
+    margin-left: 300px;
+      
 }
 
 article{
     word-spacing: 2px;
 }
 
+.information{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+
+img{
+    width: 100px;
+    border: #0015ff solid;
+    border-radius: 10%;
+}
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.adjust-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    min-width: 100vw;                
+}
+
+.text-images{
+    display: flex;
+    justify-content: space-evenly;
+    text-wrap: wrap;
+    max-width: min-content;
+    gap: 30px;
+    margin-bottom: 150px;                
+}
 
